@@ -14,11 +14,14 @@ Raw data consists of following columns:
 5. bedrooms: No. of bedrooms in the property.
 The raw data has been processed to convert raw data into time series 
 acceptable data by the following steps:
+
 1. The data is divided into two parts according to propertyType.
 2. Each part is then segregated according to the number of bedrooms.
 3. Median is then taken for each category quarterly.
 4. Date has been assigned to each row as 'saledate' of the last day belonging to the 
 respective quarter.
+
+
 Columns in ma_lga_12345.csv are:
 1. saledate: The last day of the quarter
 2. MA: The median aggregated price for the quarter
