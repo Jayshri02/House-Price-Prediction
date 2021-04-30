@@ -12,9 +12,10 @@ Raw data consists of following columns:
 3. price: The price of the property.
 4. propertyType: House/unit
 5. bedrooms: No. of bedrooms in the property.
+
+
 The raw data has been processed to convert raw data into time series 
 acceptable data by the following steps:
-
 1. The data is divided into two parts according to propertyType.
 2. Each part is then segregated according to the number of bedrooms.
 3. Median is then taken for each category quarterly.
